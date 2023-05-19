@@ -9,9 +9,9 @@ This project was for the Computer Security and Forensics, Spring 2023 semester a
                                                                           
                                                                   Md Jayadul Islam
                                                                   
-                                                              md.islam1@jjay.cuny.edu
+                                                                md.islam1@jjay.cuny.edu
                                                               
-                                                                          For
+                                                                         For
                                                                           
                                                   CSCI-411 Computer Security and Forensics, Spring 2023
                                                   
@@ -19,9 +19,9 @@ This project was for the Computer Security and Forensics, Spring 2023 semester a
                                                               
                            
                            
-           The work reported in this document, including creating this report, was done by me, except were cited with the accompanying source 
-           reference and permission if required by the source. No part of the report was produced by a non-human, software, or hardware. 
-           Any exception to this statement can be considered a breach of academic integrity.
+     The work reported in this document, including creating this report, was done by me, except were cited with the accompanying source 
+     reference and permission if required by the source. No part of the report was produced by a non-human, software, or hardware. 
+     Any exception to this statement can be considered a breach of academic integrity.
                                                                       
                                                                       Submitted on
                                                                       
@@ -54,13 +54,13 @@ The website makes a unique token and sends a password-changing link to the user'
 
 ![Alt Text](Diagram1.1.png)
 
-                                          Diagram 1.1 - HTTP host header attack from www.portswigger.net 
+                            Diagram 1.1 - HTTP host header attack from www.portswigger.net 
 
 DDoS attack: Another attack carried on by an HTTP protocol vulnerability is a distributed denial of service attack (DDoS). When a user wants to visit a website, he must complete TCP three-way handshake. Next, the client sends an SYN packet to the server, indicating its desire to initiate a connection. The server then responds with an SYN-ACK packet, indicating its willingness to establish a connection. The final step involves the client sending an ACK packet, confirming that it has received the server's response and that the connection has been established. But in this attack, the attacker does not establish the TCP connection but sends only the SYN packet to the server. The SYN packet is tiny in size. To make it bigger, the attacker uses a packet amplifier before sending the packet to the server. We call this a Denial of service or (DoS) attack. Also, to make it more effective, the attacker uses a lot of zombie computers called a botnet. When many botnets send SYN requests to the server simultaneously, we call this Distributed denial of service or (DDoS) attack. A DDoS attack aims to disrupt the normal functioning of the target system or website by overwhelming its resources. This can result in legitimate users who cannot access the system or website.
 
 ![Alt Text](https://github.com/mdjislam123/HTTP-Host-Header-Attack/blob/main/Diagram%201.2.png)
 
-                                          Diagram1.2 – DDoS attack from www.akamai.com
+                                    Diagram1.2 – DDoS attack from www.akamai.com
                                          
                                          
 
