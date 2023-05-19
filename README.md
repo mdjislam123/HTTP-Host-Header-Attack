@@ -95,7 +95,7 @@ For a security layer, we need to install a Burp certificate in our machine becau
 
 After installing the burp suit, we are ready to test the HTTP host header vulnerability and draw the attack. Here is the screenshot after the installation of the Burp suit; here, you can see that the burp suit started capturing the data traffic.
 
-![Alt Text](Screenshot 1.2.png)](https://github.com/mdjislam123/HTTP-Host-Header-Attack/blob/main/Screenshot%201.2.png)
+![Alt Text](https://github.com/mdjislam123/HTTP-Host-Header-Attack/blob/main/Screenshot%201.2.png)
                                      
                                      Screenshot 1.2 from my laptop
                                      
@@ -120,7 +120,8 @@ Step 2:
 After accessing the lab, we can see that we automatically logged in to the "wiener's" account. Now I will
 click the to the account button; we can see that we have the account login page.
 
-![Alt Text](https://github.com/mdjislam123/HTTP-Host-Header-Attack/blob/main/Screenshot%201.4.JPG)
+![Alt Text](https://github.com/mdjislam123/HTTP-Host-Header-Attack/blob/main/Screenshot%201.4.jpg)
+
                                Screenshot 1.4 “wiener’s” website account
 
 
@@ -130,7 +131,7 @@ click the to the account button; we can see that we have the account login page.
 
 Now, I will click on the forgot password button, put the username "wiener," and press the submit button to send the HTTP request for "wiener's" password change. Now we can also access "wiener's."
 
-![Alt Text](https://github.com/mdjislam123/HTTP-Host-Header-Attack/blob/main/Screenshot%201.6.JPG)
+![Alt Text](https://github.com/mdjislam123/HTTP-Host-Header-Attack/blob/main/Screenshot%201.6.jpg)
 
                              Screenshot 1.6 password reset page
 
@@ -151,7 +152,7 @@ Looking at the burp suite, we already captured the HTTP request for password res
 
 Now we will further investigate the HTTP request with "wiener's" password reset link in the email server.
 
-![Alt Text](https://github.com/mdjislam123/HTTP-Host-Header-Attack/blob/main/Screenshot%201.9.JPG)
+![Alt Text](https://github.com/mdjislam123/HTTP-Host-Header-Attack/blob/main/Screenshot%201.9.jpg)
 
                            Screenshot 1.9 password reset page.
                            
@@ -177,13 +178,13 @@ Note: In this case, the hacker will use social engineering techniques to make th
 
 Here you can see that after “Carlos," click on the password reset link, and my server has received a token that the website has sent to the "Carlos" email address for password reset.
 
-![Alt Text](https://github.com/mdjislam123/HTTP-Host-Header-Attack/blob/main/Screenshot%202.2.jpg)
+![Alt Text](https://github.com/mdjislam123/HTTP-Host-Header-Attack/blob/main/Screenshot%202.2.JPG)
 
                         Screenshot 2.2 exploit server with password reset token.
 
 I will now copy the token from my exploit server, replace the token with "wiener's" password reset token form his email server, and send the HTTP request to the browser URL.
 
-![Alt Text](https://github.com/mdjislam123/HTTP-Host-Header-Attack/blob/main/Screenshot%202.3.jpg)
+![Alt Text](https://github.com/mdjislam123/HTTP-Host-Header-Attack/blob/main/Screenshot%202.3.JPG)
 
                         Screenshot 2.3 password reset option in carlos’s account.
 
