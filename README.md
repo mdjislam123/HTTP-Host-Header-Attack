@@ -36,7 +36,7 @@ This project was for the Computer Security and Forensics, Spring 2023 semester a
                                                           
                                                           
 
-(K)nowledge:
+# (K)nowledge:
 
 Starting with the knowledge part of the report, I will learn the zero-day vulnerability of the HTTP protocol. However, before beginning writing, we need to know how the HTTP protocol works.
 
@@ -64,7 +64,7 @@ DDoS attack: Another attack carried on by an HTTP protocol vulnerability is a di
                                          
                                          
 
-(S)kills:
+# (S)kills:
 
 In this skill part, I will demonstrate the tool I will use to attack the HTTP protocol's vulnerability, such as HTTP host header attack.
 
@@ -100,7 +100,7 @@ After installing the burp suit, we are ready to test the HTTP host header vulner
                                      Screenshot 1.2 from my laptop
                                      
  
-(A)bilities:
+# (A)bilities:
 
 In this part, I will demonstrate the actual HTTP host header attack in a lab environment to experiment by capturing and deploying the attack.
 
@@ -197,7 +197,7 @@ Here you can see that, the I password reset option of the "carlos" account. So n
 
 Here you can see that I have logged in to the "carlos" account, and we have completed our HTTP host header attack.
 
-Conclusion:
+# Conclusion:
 
 In conclusion, the HTTP Host Header Attack is a critical flaw that attackers can use to get past web application firewalls and execute a variety of attacks like phishing, cookie stealing, and more. Web designers and administrators should always check that the Host header value matches the expected value on the server to prevent this kind of attack.
 
